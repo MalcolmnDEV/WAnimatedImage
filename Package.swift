@@ -23,7 +23,6 @@ let package = Package(
             name: "WAnimatedImage",
             path: "WAnimatedImage",
             exclude: [ "Info.plist" ],
-            sources: [ "FLAnimatedImageView.m", "FLAnimatedImage.m" ],
             publicHeadersPath: "include",
             cSettings: [
                 .headerSearchPath("include")
