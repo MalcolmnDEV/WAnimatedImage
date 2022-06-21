@@ -21,8 +21,8 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "WAnimatedImage",
-            path: "WAnimatedImage",
             exclude: [ "Info.plist" ],
+            sources: [ "FLAnimatedImageView.m", "FLAnimatedImage.m" ],
             publicHeadersPath: "include",
             cSettings: [
                 .headerSearchPath("include")
