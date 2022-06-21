@@ -1,0 +1,6 @@
+use_frameworks!
+target 'WAnimatedImage_Tests' do
+  pod 'WAnimatedImage', :path => '../'
+  
+  
+end
