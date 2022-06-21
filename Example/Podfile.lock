@@ -1,0 +1,16 @@
+PODS:
+  - WAnimatedImage (0.1.0)
+
+DEPENDENCIES:
+  - WAnimatedImage (from `../`)
+
+EXTERNAL SOURCES:
+  WAnimatedImage:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WAnimatedImage: d82078c747f0363f8a1da8d35271699fd93c5c40
+
+PODFILE CHECKSUM: 3e3679190ac4894cfdc3f08766bae1ea54f91b04
+
+COCOAPODS: 1.11.3

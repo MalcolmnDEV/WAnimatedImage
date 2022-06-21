@@ -1,0 +1,6 @@
+framework module Pods_WAnimatedImage_Tests {
+  umbrella header "Pods-WAnimatedImage_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

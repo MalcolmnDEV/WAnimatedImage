@@ -1,0 +1,6 @@
+framework module WAnimatedImage {
+  umbrella header "WAnimatedImage-umbrella.h"
+
+  export *
+  module * { export * }
+}
