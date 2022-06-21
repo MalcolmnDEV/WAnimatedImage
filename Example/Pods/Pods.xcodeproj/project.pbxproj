@@ -12,11 +12,11 @@
 		61A41BB10B30AE25593EFC4ED1615982 /* WAnimatedImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D55906A67D7E912753C099C2F356B06C /* WAnimatedImage-dummy.m */; };
 		AF616E6CD2AAFD022ADB07DFAEA87C34 /* Pods-WAnimatedImage_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 956F019370D2BAE8E5F90A2B72CA9649 /* Pods-WAnimatedImage_Tests-dummy.m */; };
 		C6FC945301A78D0C484B887A81B2EB48 /* Pods-WAnimatedImage_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B9DC50670F83C62FBAE6028808BFB6C /* Pods-WAnimatedImage_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D91146122861EA9A00380917 /* FLAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D911460C2861EA9A00380917 /* FLAnimatedImageView.m */; };
-		D91146132861EA9A00380917 /* FLAnimatedImage.h in Headers */ = {isa = PBXBuildFile; fileRef = D911460E2861EA9A00380917 /* FLAnimatedImage.h */; };
-		D91146142861EA9A00380917 /* FLAnimatedImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = D911460F2861EA9A00380917 /* FLAnimatedImageView.h */; };
-		D91146152861EA9A00380917 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D91146102861EA9A00380917 /* Info.plist */; };
-		D91146162861EA9A00380917 /* FLAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D91146112861EA9A00380917 /* FLAnimatedImage.m */; };
+		D911461E2861EDB900380917 /* FLAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D91146182861EDB800380917 /* FLAnimatedImage.m */; };
+		D911461F2861EDB900380917 /* FLAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D91146192861EDB800380917 /* FLAnimatedImageView.m */; };
+		D91146202861EDB900380917 /* FLAnimatedImage.h in Headers */ = {isa = PBXBuildFile; fileRef = D911461B2861EDB900380917 /* FLAnimatedImage.h */; };
+		D91146212861EDB900380917 /* FLAnimatedImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = D911461C2861EDB900380917 /* FLAnimatedImageView.h */; };
+		D91146222861EDB900380917 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D911461D2861EDB900380917 /* Info.plist */; };
 		F769DFE64D4B1873DACE7A08E34B53F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,11 +52,11 @@
 		BD66CE7DFBDF5BA6D1F897BA52CDF7E9 /* WAnimatedImage.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = WAnimatedImage.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D55906A67D7E912753C099C2F356B06C /* WAnimatedImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WAnimatedImage-dummy.m"; sourceTree = "<group>"; };
 		D86680E033C8FB19C8E15D428C8DBCD1 /* Pods-WAnimatedImage_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WAnimatedImage_Tests-Info.plist"; sourceTree = "<group>"; };
-		D911460C2861EA9A00380917 /* FLAnimatedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FLAnimatedImageView.m; path = WAnimatedImage/Classes/FLAnimatedImageView.m; sourceTree = "<group>"; };
-		D911460E2861EA9A00380917 /* FLAnimatedImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLAnimatedImage.h; sourceTree = "<group>"; };
-		D911460F2861EA9A00380917 /* FLAnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLAnimatedImageView.h; sourceTree = "<group>"; };
-		D91146102861EA9A00380917 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = WAnimatedImage/Classes/Info.plist; sourceTree = "<group>"; };
-		D91146112861EA9A00380917 /* FLAnimatedImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FLAnimatedImage.m; path = WAnimatedImage/Classes/FLAnimatedImage.m; sourceTree = "<group>"; };
+		D91146182861EDB800380917 /* FLAnimatedImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FLAnimatedImage.m; path = Sources/WAnimatedImage/FLAnimatedImage.m; sourceTree = "<group>"; };
+		D91146192861EDB800380917 /* FLAnimatedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FLAnimatedImageView.m; path = Sources/WAnimatedImage/FLAnimatedImageView.m; sourceTree = "<group>"; };
+		D911461B2861EDB900380917 /* FLAnimatedImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLAnimatedImage.h; sourceTree = "<group>"; };
+		D911461C2861EDB900380917 /* FLAnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLAnimatedImageView.h; sourceTree = "<group>"; };
+		D911461D2861EDB900380917 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Sources/WAnimatedImage/Info.plist; sourceTree = "<group>"; };
 		E6268385115415C4C2FC4C74BB1F177F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E89CF35B30A75979FCC666EC1763A8C1 /* Pods-WAnimatedImage_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WAnimatedImage_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -165,14 +165,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D911460D2861EA9A00380917 /* include */ = {
+		D911461A2861EDB900380917 /* include */ = {
 			isa = PBXGroup;
 			children = (
-				D911460E2861EA9A00380917 /* FLAnimatedImage.h */,
-				D911460F2861EA9A00380917 /* FLAnimatedImageView.h */,
+				D911461B2861EDB900380917 /* FLAnimatedImage.h */,
+				D911461C2861EDB900380917 /* FLAnimatedImageView.h */,
 			);
 			name = include;
-			path = WAnimatedImage/Classes/include;
+			path = Sources/WAnimatedImage/include;
 			sourceTree = "<group>";
 		};
 		E51BE16668A6896BF709C5644D5C2103 /* Pod */ = {
@@ -188,10 +188,10 @@
 		EA1F7BE23C45DAF613F090B9C1C5F503 /* WAnimatedImage */ = {
 			isa = PBXGroup;
 			children = (
-				D91146112861EA9A00380917 /* FLAnimatedImage.m */,
-				D911460C2861EA9A00380917 /* FLAnimatedImageView.m */,
-				D911460D2861EA9A00380917 /* include */,
-				D91146102861EA9A00380917 /* Info.plist */,
+				D91146182861EDB800380917 /* FLAnimatedImage.m */,
+				D91146192861EDB800380917 /* FLAnimatedImageView.m */,
+				D911461A2861EDB900380917 /* include */,
+				D911461D2861EDB900380917 /* Info.plist */,
 				E51BE16668A6896BF709C5644D5C2103 /* Pod */,
 				33FE2965F5D6905303C510D27ECC3F03 /* Support Files */,
 			);
@@ -207,8 +207,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FBD1217610B761881B9187EC2FDC108 /* WAnimatedImage-umbrella.h in Headers */,
-				D91146132861EA9A00380917 /* FLAnimatedImage.h in Headers */,
-				D91146142861EA9A00380917 /* FLAnimatedImageView.h in Headers */,
+				D91146202861EDB900380917 /* FLAnimatedImage.h in Headers */,
+				D91146212861EDB900380917 /* FLAnimatedImageView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,7 +300,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D91146152861EA9A00380917 /* Info.plist in Resources */,
+				D91146222861EDB900380917 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,9 +319,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D911461E2861EDB900380917 /* FLAnimatedImage.m in Sources */,
 				61A41BB10B30AE25593EFC4ED1615982 /* WAnimatedImage-dummy.m in Sources */,
-				D91146122861EA9A00380917 /* FLAnimatedImageView.m in Sources */,
-				D91146162861EA9A00380917 /* FLAnimatedImage.m in Sources */,
+				D911461F2861EDB900380917 /* FLAnimatedImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
