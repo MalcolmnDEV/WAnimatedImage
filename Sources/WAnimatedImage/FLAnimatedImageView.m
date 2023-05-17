@@ -118,6 +118,8 @@
         } else {
             // Stop animating before the animated image gets cleared out.
             [self stopAnimating];
+            // Clear out the image.
+            super.image = nil;
         }
         
         _animatedImage = animatedImage;
@@ -305,14 +307,7 @@ static NSUInteger gcd(NSUInteger a, NSUInteger b)
             [self.displayLink addToRunLoop:[NSRunLoop mainRunLoop] forMode:self.runLoopMode];
         }
 
-        if (@available(iOS 10, *)) {
-            // Adjusting preferredFramesPerSecond allows us to skip unnecessary calls to displayDidRefresh: when showing GIFs
-            // that don't animate quickly. Use ceil to err on the side of too many FPS so we don't miss a frame transition moment.
-            self.displayLink.preferredFramesPerSecond = ceil(1.0 / [self frameDelayGreatestCommonDivisor]);
-        } else {
-            const NSTimeInterval kDisplayRefreshRate = 60.0; // 60Hz
-            self.displayLink.frameInterval = MAX([self frameDelayGreatestCommonDivisor] * kDisplayRefreshRate, 1);
-        }
+        self.displayLink.preferredFramesPerSecond = ceil(1.0 / [self frameDelayGreatestCommonDivisor]);
         self.displayLink.paused = NO;
     } else {
         [super startAnimating];
@@ -397,11 +392,7 @@ static NSUInteger gcd(NSUInteger a, NSUInteger b)
                 self.needsDisplayWhenImageBecomesAvailable = NO;
             }
             
-            if (@available(iOS 10, *)) {
-                self.accumulator += displayLink.targetTimestamp - CACurrentMediaTime();
-            } else {
-                self.accumulator += displayLink.duration * (NSTimeInterval)displayLink.frameInterval;
-            }
+            self.accumulator += displayLink.targetTimestamp - CACurrentMediaTime();
             
             // While-loop first inspired by & good Karma to: https://github.com/ondalabs/OLImageView/blob/master/OLImageView.m
             while (self.accumulator >= delayTime) {
